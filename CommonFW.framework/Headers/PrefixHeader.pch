@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  CommonFW
+//
+//  Created by 郑亚 on 2019/12/2.
+//  Copyright © 2019 郑亚. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "gloable.h"
+#import "API_Define.h"
+#import "HttpRequestManage.h"
+#endif
+
+#endif /* PrefixHeader_pch */
